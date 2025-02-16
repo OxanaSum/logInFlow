@@ -2,7 +2,7 @@ from faker import Faker
 
 fake = Faker()
 
-valid_login = "tova@demostack.com"
+valid_login = "new@demostack.com"
 invalid_login = fake.email()
 
 login_320_chars = "sBkamk6exlpggg6TziTI6TgkhF0uU2F4sHSUlisKwDW0Gopdfw8D1V6X2PDmEfWSCceJOTk13HSWcBRIVLkQTZVeLMHscWG4w2oZwU2GT423nZO7hy55yXEvwu8CCuESlUTL1zVjIk8R4vfqgwPEvCca71HdpL4VC76LJNDPwGFMkeh66LF86g4a8hk8JQ2gSSYO17dlQogD2iUYyH5hlkCI6Jo8j2It3hbzOEhRTEEr0cUiDMuR9UqPBrwiLHTrIDTmphsQF7K46ewuIIq08LQyBOPT0mOuzfjuSDQGQX3tUYjDw2TD@example.com"
